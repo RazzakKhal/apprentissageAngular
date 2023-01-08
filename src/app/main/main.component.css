@@ -9,38 +9,3 @@
 
 }
 
-.modaleProduit{
-  position: absolute;
-  width : 40vw;
-  height : 40vh;
-  overflow: hidden;
-  z-index: 3;
-  border-radius: 10px;
-  left : 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-
-}
-
-.photoModale{
-  width : 100%;
-  position: absolute;
-  z-index: 4;
-  top: 0;
-}
-
-.texteModale{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height : 40%;
-  z-index: 5;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-transform: uppercase;
-}

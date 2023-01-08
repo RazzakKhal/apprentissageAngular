@@ -184,7 +184,7 @@ afficheModale(resultat : Produit){
 
 }
 
-closeModale(){
-this.modale = this.modaleVide;
+fermela(mamodale : Produit){
+  this.modale = mamodale;
 }
 }

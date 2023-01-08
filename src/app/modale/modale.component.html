@@ -1,1 +1,8 @@
-<p>modale works!</p>
+<div *ngIf="mamodale?.name !== ''" class="modaleProduit">
+  <img src="{{mamodale ? mamodale.imageUrl[0] : ''}}" alt="" class="photoModale">
+  <div class="texteModale">
+  <div>Nom du produit : {{mamodale?.name}}</div>
+  <div>Prix : {{mamodale?.regular_price}}</div>
+  <button (click)="closeModale()">Fermer</button>
+  </div>
+  </div>
