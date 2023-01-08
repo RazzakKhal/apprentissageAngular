@@ -1,0 +1,12 @@
+<div class="container">
+<app-produit *ngFor="let item of produits" [produit1] = "item" (monemetteur)="afficheModale($event)"></app-produit>
+<div *ngIf="produits.length === 0">Désolé il n'y a plus de produits en stock</div>
+<div *ngIf="modale.name !== ''" class="modaleProduit">
+<img src="{{modale.imageUrl[0]}}" alt="" class="photoModale">
+<div class="texteModale">
+<div>Nom du produit : {{modale.name}}</div>
+<div>Prix : {{modale.regular_price}}</div>
+<button (click)="closeModale()">Fermer</button>
+</div>
+</div>
+</div>

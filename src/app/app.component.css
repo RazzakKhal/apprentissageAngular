@@ -1,0 +1,21 @@
+
+
+header{
+  height : 10vh;
+  background-color: aquamarine;
+  margin: 0;  padding: 0;
+}
+
+main{
+  min-height : 70vh;
+  background-color: aliceblue;
+  padding: 20px;
+
+}
+
+footer{
+  height : 20vh;
+  background-color: aquamarine;
+
+}
+
